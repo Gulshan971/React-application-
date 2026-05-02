@@ -1,6 +1,6 @@
 export const Resume = () => {
     return (
-        <div>
+        <>
         <div>
             <h3>Mobile Number : <p>7985476928</p></h3>
             <h3>Email : <p>gulshanrajdev47595@gmial.com</p> </h3>
@@ -14,19 +14,19 @@ export const Resume = () => {
         <Internship/>
         <Hackathons/>
         <Hackathons/>
-        </div>
+       </>
     );
 }
 
 // we are creating a component that leads to reusable code and provide usecase for complex objects
 const Internship = () => {
     return(
-      <div>
-        <h2> Organization Name : AutoRabit</h2>
-        <h2> Duration : 5 months </h2>
-        <p>Learning : Java , NetBeans </p>
-        <img src="https://i.pinimg.com/originals/4d/a8/e1/4da8e188dacdacad0d43bbbc34a048fe.jpg" alt="Certificate1" width = "50%" />
-      </div>
+        [
+        <h2> Organization Name : AutoRabit</h2> ,
+        <h2> Duration : 5 months </h2> ,
+        <p>Learning : Java , NetBeans </p> ,
+        <img src="https://i.pinimg.com/originals/4d/a8/e1/4da8e188dacdacad0d43bbbc34a048fe.jpg" alt="Certificate1" width = "50%"  position = "center" />
+        ]
     );
 }
 const Hackathons = () => {
